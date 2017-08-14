@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1502702734878
-Build-Jdk: 1.8.0_144
-Built-By: yasara
+Bnd-LastModified: 1502710271879
+Build-Jdk: 1.8.0_131
+Built-By: nethmi
 Bundle-Contributors: WSO2 Inc
 Bundle-Copyright: WSO2 Inc
 Bundle-Description: It's is used for some message/event transformation f
@@ -20,5 +20,5 @@ Export-Package: org.wso2.carbon.databridge.commons.binary;version="2.0.6
  3"
 Import-Package: org.osgi.framework
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
-SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+SCM-Revision: 963a5a914d2b3b4ad3f480fcac595b4256961a87
 Tool: Bnd-2.4.1.201501161923

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1502702734244
-Build-Jdk: 1.8.0_144
-Built-By: yasara
+Bnd-LastModified: 1502710271057
+Build-Jdk: 1.8.0_131
+Built-By: nethmi
 Bundle-Contributors: WSO2 Inc
 Bundle-Copyright: WSO2 Inc
 Bundle-Description: org.wso2.carbon.agent.commons.thrift is the common t
@@ -40,5 +40,5 @@ Import-Package: org.apache.thrift;version="[0.9.2.wso2v1,1.0.0)",org.apa
  :=optional;version="[0.9,1)",org.slf4j;resolution:=optional;version="[1
  .7,2)",org.osgi.framework;version="[1.8,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
-SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+SCM-Revision: 963a5a914d2b3b4ad3f480fcac595b4256961a87
 Tool: Bnd-2.4.1.201501161923

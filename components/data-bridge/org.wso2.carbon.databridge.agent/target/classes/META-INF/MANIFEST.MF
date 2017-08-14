@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1502702741703
-Build-Jdk: 1.8.0_144
-Built-By: yasara
+Bnd-LastModified: 1502710283722
+Build-Jdk: 1.8.0_131
+Built-By: nethmi
 Bundle-Contributors: WSO2 Inc
 Bundle-Copyright: WSO2 Inc
 Bundle-Description: This implements the client HA publishing to Data Rec
@@ -43,7 +43,7 @@ Import-Package: org.apache.thrift;version="[0.9.2.wso2v1,1.0.0)",org.wso
 Require-Capability: osgi.service;effective:=active;filter:="(objectClass
  =org.wso2.carbon.kernel.configprovider.ConfigProvider)",osgi.ee;filter:
  ="(&(osgi.ee=JavaSE)(version=1.8))"
-SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+SCM-Revision: 963a5a914d2b3b4ad3f480fcac595b4256961a87
 Service-Component: OSGI-INF/org.wso2.carbon.databridge.agent.internal.Da
  taAgentDS.xml
 Tool: Bnd-2.4.1.201501161923

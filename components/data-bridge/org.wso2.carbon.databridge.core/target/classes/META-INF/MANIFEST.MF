@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1502702736905
-Build-Jdk: 1.8.0_144
-Built-By: yasara
+Bnd-LastModified: 1502710276760
+Build-Jdk: 1.8.0_131
+Built-By: nethmi
 Bundle-Contributors: WSO2 Inc
 Bundle-Copyright: WSO2 Inc
 Bundle-Description: org.wso2.carbon.databridge.core is used relieve the 
@@ -56,7 +56,7 @@ Require-Capability: osgi.service;effective:=active;filter:="(objectClass
  =org.wso2.carbon.kernel.configprovider.ConfigProvider)",osgi.service;ef
  fective:=active;filter:="(objectClass=org.wso2.carbon.kernel.CarbonRunt
  ime)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
-SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+SCM-Revision: 963a5a914d2b3b4ad3f480fcac595b4256961a87
 Service-Component: OSGI-INF/org.wso2.carbon.databridge.core.internal.Dat
  aBridgeDS.xml
 Tool: Bnd-2.4.1.201501161923

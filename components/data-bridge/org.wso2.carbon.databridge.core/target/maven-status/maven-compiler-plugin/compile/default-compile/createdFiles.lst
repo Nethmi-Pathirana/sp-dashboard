@@ -6,8 +6,8 @@ org/wso2/carbon/databridge/core/Utils/DataBridgeUtils.class
 org/wso2/carbon/databridge/core/internal/authentication/Authenticator.class
 org/wso2/carbon/databridge/core/internal/DataBridgeDS.class
 org/wso2/carbon/databridge/core/conf/DataReceiverConfiguration.class
-org/wso2/carbon/databridge/core/internal/queue/QueueWorker.class
 org/wso2/carbon/databridge/core/internal/EventDispatcher.class
+org/wso2/carbon/databridge/core/internal/queue/QueueWorker.class
 org/wso2/carbon/databridge/core/definitionstore/StreamAddRemoveListener.class
 org/wso2/carbon/databridge/core/EventConverter.class
 org/wso2/carbon/databridge/core/DataBridgeServiceValueHolder.class
@@ -17,8 +17,8 @@ org/wso2/carbon/databridge/core/DataBridgeReceiverService.class
 org/wso2/carbon/databridge/core/definitionstore/InMemoryStreamDefinitionStore.class
 org/wso2/carbon/databridge/core/Utils/DataBridgeUtils$1.class
 org/wso2/carbon/databridge/core/exception/EventConversionException.class
-org/wso2/carbon/databridge/core/exception/DataBridgeException.class
 org/wso2/carbon/databridge/core/conf/DatabridgeConfigurationFileResolver.class
+org/wso2/carbon/databridge/core/exception/DataBridgeException.class
 org/wso2/carbon/databridge/core/internal/authentication/session/SessionCache$SessionFunction.class
 org/wso2/carbon/databridge/core/Utils/AgentSession.class
 org/wso2/carbon/databridge/core/AbstractDataReceiver.class
@@ -37,8 +37,8 @@ org/wso2/carbon/databridge/core/definitionstore/StreamDefinitionStore.class
 org/wso2/carbon/databridge/core/Utils/EventComposite.class
 org/wso2/carbon/databridge/core/internal/EventDispatcher$1.class
 org/wso2/carbon/databridge/core/internal/authentication/AuthenticationHandler.class
-org/wso2/carbon/databridge/core/conf/DataBridgeConfiguration.class
 org/wso2/carbon/databridge/core/StreamTypeHolder.class
+org/wso2/carbon/databridge/core/conf/DataBridgeConfiguration.class
 org/wso2/carbon/databridge/core/internal/queue/EventQueue.class
 org/wso2/carbon/databridge/core/conf/DataReceiver.class
 org/wso2/carbon/databridge/core/DataBridgeSubscriberService.class
