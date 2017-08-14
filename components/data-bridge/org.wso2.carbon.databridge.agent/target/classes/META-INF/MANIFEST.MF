@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702741703
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: This implements the client HA publishing to Data Rec
+ eiver
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.databridge.agent
+Bundle-SymbolicName: org.wso2.carbon.databridge.agent
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.databridge.agent;version="2.0.63";uses:=
+ "org.wso2.carbon.databridge.agent.conf,org.wso2.carbon.databridge.agent
+ .endpoint,org.wso2.carbon.databridge.agent.exception,org.wso2.carbon.da
+ tabridge.commons",org.wso2.carbon.databridge.agent.client;version="2.0.
+ 63";uses:="org.wso2.carbon.databridge.agent.exception",org.wso2.carbon.
+ databridge.agent.conf;version="2.0.63";uses:="org.wso2.carbon.databridg
+ e.agent.exception",org.wso2.carbon.databridge.agent.endpoint;version="2
+ .0.63";uses:="com.lmax.disruptor,org.wso2.carbon.databridge.agent,org.w
+ so2.carbon.databridge.agent.conf,org.wso2.carbon.databridge.agent.excep
+ tion,org.wso2.carbon.databridge.commons",org.wso2.carbon.databridge.age
+ nt.endpoint.binary;version="2.0.63";uses:="org.wso2.carbon.databridge.a
+ gent.client,org.wso2.carbon.databridge.agent.endpoint,org.wso2.carbon.d
+ atabridge.agent.exception,org.wso2.carbon.databridge.commons",org.wso2.
+ carbon.databridge.agent.endpoint.thrift;version="2.0.63";uses:="org.wso
+ 2.carbon.databridge.agent.client,org.wso2.carbon.databridge.agent.endpo
+ int,org.wso2.carbon.databridge.agent.exception,org.wso2.carbon.databrid
+ ge.commons",org.wso2.carbon.databridge.agent.exception;version="2.0.63"
+ ,org.wso2.carbon.databridge.agent.internal;version="2.0.63",org.wso2.ca
+ rbon.databridge.agent.util;version="2.0.63";uses:="org.wso2.carbon.data
+ bridge.agent.exception"
+Import-Package: org.apache.thrift;version="[0.9.2.wso2v1,1.0.0)",org.wso
+ 2.carbon.databridge.commons;version="[2.0.0,3.0.0)",com.lmax.disruptor;
+ version="[2.10.0,3.4)",com.lmax.disruptor.dsl;version="[2.10.0,3.4)",or
+ g.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.wso2.carbon.kernel.configprovider.ConfigProvider)",osgi.ee;filter:
+ ="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Service-Component: OSGI-INF/org.wso2.carbon.databridge.agent.internal.Da
+ taAgentDS.xml
+Tool: Bnd-2.4.1.201501161923

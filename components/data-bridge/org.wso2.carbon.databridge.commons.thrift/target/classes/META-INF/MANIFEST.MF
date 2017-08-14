@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702734244
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: org.wso2.carbon.agent.commons.thrift is the common t
+ hrift objects used in Agent andThrift Event Receiver
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.databridge.commons.thrift
+Bundle-SymbolicName: org.wso2.carbon.databridge.commons.thrift
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.databridge.commons.thrift.data;version="
+ 2.0.63";uses:="org.apache.thrift,org.apache.thrift.meta_data,org.apache
+ .thrift.protocol",org.wso2.carbon.databridge.commons.thrift.exception;v
+ ersion="2.0.63";uses:="org.apache.thrift,org.apache.thrift.meta_data,or
+ g.apache.thrift.protocol",org.wso2.carbon.databridge.commons.thrift.ser
+ vice.general;version="2.0.63";uses:="org.apache.thrift,org.apache.thrif
+ t.async,org.apache.thrift.meta_data,org.apache.thrift.protocol,org.apac
+ he.thrift.server,org.apache.thrift.transport,org.wso2.carbon.databridge
+ .commons.thrift.data,org.wso2.carbon.databridge.commons.thrift.exceptio
+ n",org.wso2.carbon.databridge.commons.thrift.service.secure;version="2.
+ 0.63";uses:="org.apache.thrift,org.apache.thrift.async,org.apache.thrif
+ t.meta_data,org.apache.thrift.protocol,org.apache.thrift.server,org.apa
+ che.thrift.transport,org.wso2.carbon.databridge.commons.thrift.data,org
+ .wso2.carbon.databridge.commons.thrift.exception",org.wso2.carbon.datab
+ ridge.commons.thrift.utils;version="2.0.63"
+Import-Package: org.apache.thrift;version="[0.9.2.wso2v1,1.0.0)",org.apa
+ che.thrift.async;resolution:=optional;version="[0.9,1)",org.apache.thri
+ ft.meta_data;resolution:=optional;version="[0.9,1)",org.apache.thrift.p
+ rotocol;resolution:=optional;version="[0.9,1)",org.apache.thrift.scheme
+ ;resolution:=optional;version="[0.9,1)",org.apache.thrift.server;resolu
+ tion:=optional;version="[0.9,1)",org.apache.thrift.transport;resolution
+ :=optional;version="[0.9,1)",org.slf4j;resolution:=optional;version="[1
+ .7,2)",org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Tool: Bnd-2.4.1.201501161923

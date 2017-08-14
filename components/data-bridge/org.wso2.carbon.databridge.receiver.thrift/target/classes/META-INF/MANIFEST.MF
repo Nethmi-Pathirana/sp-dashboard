@@ -1,0 +1,65 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702738606
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: org.wso2.carbon.databridge.receiver.thrift is used r
+ elieve the dispatch the events sent byAgent
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.databridge.receiver.thrift
+Bundle-SymbolicName: org.wso2.carbon.databridge.receiver.thrift
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.databridge.receiver.thrift;version="2.0.
+ 63";uses:="org.wso2.carbon.databridge.commons.exception,org.wso2.carbon
+ .databridge.core,org.wso2.carbon.databridge.core.exception,org.wso2.car
+ bon.databridge.receiver.thrift.conf",org.wso2.carbon.databridge.receive
+ r.thrift.conf;version="2.0.63";uses:="org.wso2.carbon.databridge.core.c
+ onf",org.wso2.carbon.databridge.receiver.thrift.converter;version="2.0.
+ 63";uses:="org.wso2.carbon.databridge.commons,org.wso2.carbon.databridg
+ e.commons.thrift.data,org.wso2.carbon.databridge.core",org.wso2.carbon.
+ databridge.receiver.thrift.service;version="2.0.63";uses:="javax.servle
+ t,javax.servlet.http,org.apache.thrift,org.apache.thrift.protocol,org.a
+ pache.thrift.server,org.wso2.carbon.databridge.commons.thrift.data,org.
+ wso2.carbon.databridge.commons.thrift.exception,org.wso2.carbon.databri
+ dge.commons.thrift.service.general,org.wso2.carbon.databridge.commons.t
+ hrift.service.secure,org.wso2.carbon.databridge.core"
+Import-Package: org.apache.thrift;version="[0.9.2.wso2v1,1.0.0)",org.osg
+ i.framework;version="[1.8,2)",javax.net.ssl;resolution:=optional,javax.
+ servlet;resolution:=optional;version="[3.1,4)",javax.servlet.http;resol
+ ution:=optional;version="[3.1,4)",org.apache.commons.logging;resolution
+ :=optional;version="[1.2,2)",org.apache.thrift.protocol;resolution:=opt
+ ional;version="[0.9,1)",org.apache.thrift.server;resolution:=optional;v
+ ersion="[0.9,1)",org.apache.thrift.transport;resolution:=optional;versi
+ on="[0.9,1)",org.wso2.carbon.databridge.commons;resolution:=optional;ve
+ rsion="[2.0,3)",org.wso2.carbon.databridge.commons.exception;resolution
+ :=optional;version="[2.0,3)",org.wso2.carbon.databridge.commons.thrift.
+ data;resolution:=optional;version="[2.0,3)",org.wso2.carbon.databridge.
+ commons.thrift.exception;resolution:=optional;version="[2.0,3)",org.wso
+ 2.carbon.databridge.commons.thrift.service.general;resolution:=optional
+ ;version="[2.0,3)",org.wso2.carbon.databridge.commons.thrift.service.se
+ cure;resolution:=optional;version="[2.0,3)",org.wso2.carbon.databridge.
+ commons.thrift.utils;resolution:=optional;version="[2.0,3)",org.wso2.ca
+ rbon.databridge.commons.utils;resolution:=optional;version="[2.0,3)",or
+ g.wso2.carbon.databridge.core;resolution:=optional;version="[2.0,3)",or
+ g.wso2.carbon.databridge.core.conf;resolution:=optional;version="[2.0,3
+ )",org.wso2.carbon.databridge.core.exception;resolution:=optional;versi
+ on="[2.0,3)",org.wso2.carbon.databridge.receiver.thrift;resolution:=opt
+ ional;version="[2.0,3)",org.wso2.carbon.databridge.receiver.thrift.conf
+ ;resolution:=optional;version="[2.0,3)",org.wso2.carbon.kernel;resoluti
+ on:=optional;version="[5.2,6)",org.wso2.carbon.kernel.config.model;reso
+ lution:=optional;version="[5.2,6)"
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.wso2.carbon.databridge.core.DataBridgeReceiverService)",osgi.servi
+ ce;effective:=active;filter:="(objectClass=org.wso2.carbon.kernel.Carbo
+ nRuntime)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Service-Component: OSGI-INF/org.wso2.carbon.databridge.receiver.thrift.i
+ nternal.ThriftDataReceiverDS.xml
+Tool: Bnd-2.4.1.201501161923

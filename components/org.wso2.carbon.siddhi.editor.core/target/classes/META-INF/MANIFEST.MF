@@ -1,0 +1,86 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702756570
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: WSO2 is an open source application development softw
+ are company focused on providing service-orientedarchitecture solutions
+  for professional developers.
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.siddhi.editor.core
+Bundle-SymbolicName: org.wso2.carbon.siddhi.editor.core
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Carbon-Component: osgi.service; objectClass="org.wso2.msf4j.Microservice
+ "; serviceCount="1",osgi.service; objectClass="org.wso2.carbon.deployme
+ nt.engine.Deployer";serviceCount="1"
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbon.siddhi.editor.core;version="2.0.63";uses
+ :="com.google.gson",org.wso2.carbon.siddhi.editor.core.commons.metadata
+ ;version="2.0.63";uses:="org.wso2.siddhi.annotation.util",org.wso2.carb
+ on.siddhi.editor.core.commons.request;version="2.0.63",org.wso2.carbon.
+ siddhi.editor.core.commons.response;version="2.0.63";uses:="org.wso2.ca
+ rbon.siddhi.editor.core.commons.metadata,org.wso2.siddhi.query.api.defi
+ nition",org.wso2.carbon.siddhi.editor.core.exception;version="2.0.63";u
+ ses:="javax.ws.rs.core,javax.ws.rs.ext",org.wso2.carbon.siddhi.editor.c
+ ore.internal;version="2.0.63";uses:="javax.ws.rs,javax.ws.rs.core,org.o
+ sgi.framework,org.wso2.carbon.deployment.engine,org.wso2.carbon.deploym
+ ent.engine.exception,org.wso2.carbon.kernel.configprovider,org.wso2.car
+ bon.siddhi.editor.core.util,org.wso2.carbon.stream.processor.common,org
+ .wso2.carbon.stream.processor.common.exception,org.wso2.msf4j,org.wso2.
+ siddhi.core,org.wso2.siddhi.core.debugger,org.wso2.siddhi.core.event,or
+ g.wso2.siddhi.core.stream.input,org.wso2.siddhi.core.util,org.wso2.sidd
+ hi.query.api.definition",org.wso2.carbon.siddhi.editor.core.internal.lo
+ cal;version="2.0.63";uses:="com.google.gson,org.wso2.carbon.siddhi.edit
+ or.core",org.wso2.carbon.siddhi.editor.core.util;version="2.0.63";uses:
+ ="org.wso2.carbon.siddhi.editor.core.commons.metadata,org.wso2.carbon.s
+ iddhi.editor.core.exception,org.wso2.siddhi.core,org.wso2.siddhi.core.d
+ ebugger,org.wso2.siddhi.core.event,org.wso2.siddhi.query.api.definition
+ "
+Import-Package: org.osgi.framework;version="[1.8.0,2.0.0)",org.wso2.carb
+ on.stream.processor.common;version="0.0.0",org.wso2.carbon.stream.proce
+ ssor.common.exception;version="0.0.0",org.wso2.carbon.stream.processor.
+ common.utils.config;version="0.0.0",org.wso2.msf4j;version="[2.0.0,3.0.
+ 0)",javax.ws.rs;version="0.0.0",javax.ws.rs.core;version="0.0.0",javax.
+ ws.rs.ext;version="0.0.0",com.google.common.util.concurrent;resolution:
+ =optional;version="[20.0,21)",com.google.gson;resolution:=optional;vers
+ ion="[2.5,3)",org.apache.commons.io;resolution:=optional;version="[2.4,
+ 3)",org.apache.log4j;resolution:=optional;version="[1.2,2)",org.slf4j;r
+ esolution:=optional;version="[1.7,2)",org.wso2.carbon.deployment.engine
+ ;resolution:=optional;version="[5.0,6)",org.wso2.carbon.deployment.engi
+ ne.exception;resolution:=optional;version="[5.0,6)",org.wso2.carbon.ker
+ nel.configprovider;resolution:=optional;version="[5.2,6)",org.wso2.carb
+ on.utils;resolution:=optional;version="[1.2,2)",org.wso2.siddhi.annotat
+ ion;resolution:=optional;version="[4.0,5)",org.wso2.siddhi.annotation.u
+ til;resolution:=optional;version="[4.0,5)",org.wso2.siddhi.core;resolut
+ ion:=optional;version="[4.0,5)",org.wso2.siddhi.core.debugger;resolutio
+ n:=optional;version="[4.0,5)",org.wso2.siddhi.core.event;resolution:=op
+ tional;version="[4.0,5)",org.wso2.siddhi.core.executor.function;resolut
+ ion:=optional;version="[4.0,5)",org.wso2.siddhi.core.query.processor.st
+ ream;resolution:=optional;version="[4.0,5)",org.wso2.siddhi.core.query.
+ processor.stream.function;resolution:=optional;version="[4.0,5)",org.ws
+ o2.siddhi.core.query.processor.stream.window;resolution:=optional;versi
+ on="[4.0,5)",org.wso2.siddhi.core.query.selector.attribute.aggregator;r
+ esolution:=optional;version="[4.0,5)",org.wso2.siddhi.core.stream.input
+ ;resolution:=optional;version="[4.0,5)",org.wso2.siddhi.core.util;resol
+ ution:=optional;version="[4.0,5)",org.wso2.siddhi.core.util.config;reso
+ lution:=optional;version="[4.0,5)",org.wso2.siddhi.query.api.definition
+ ;resolution:=optional;version="[4.0,5)",org.wso2.carbon.kernel;version=
+ "0.0.0"
+Provide-Capability: osgi.service;effective:=active;objectClass="org.wso2
+ .msf4j.Microservice",osgi.service;effective:=active;objectClass="org.ws
+ o2.carbon.deployment.engine.Deployer"
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.wso2.carbon.kernel.configprovider.ConfigProvider)",osgi.service;ef
+ fective:=active;filter:="(objectClass=org.wso2.siddhi.core.util.SiddhiC
+ omponentActivator)",osgi.service;effective:=active;filter:="(objectClas
+ s=org.wso2.carbon.stream.processor.common.EventStreamService)",osgi.ee;
+ filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Service-Component: OSGI-INF/editor-core-services.xml,OSGI-INF/workspace-
+ artifact-deployer.xml
+Tool: Bnd-2.4.1.201501161923

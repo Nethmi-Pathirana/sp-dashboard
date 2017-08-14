@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702730514
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: WSO2 is an open source application development softw
+ are company focused on providing service-orientedarchitecture solutions
+  for professional developers.
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.msf4j.interceptor.common
+Bundle-SymbolicName: org.wso2.carbon.msf4j.interceptor.common
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Carbon-Component: osgi.service; objectClass="org.wso2.msf4j.interceptor.
+ OSGiInterceptorConfig"
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbon.msf4j.interceptor.common;version="2.0.63
+ ";uses:="org.wso2.msf4j,org.wso2.msf4j.interceptor",org.wso2.carbon.msf
+ 4j.interceptor.common.config;version="2.0.63";uses:="org.osgi.framework
+ ,org.wso2.msf4j.interceptor"
+Import-Package: org.wso2.carbon.security.caas.api;version="[1.0,2)",org.
+ osgi.framework;version="[1.8,2)",org.wso2.msf4j;version="[2.3,3)",org.w
+ so2.msf4j.interceptor;version="[2.3,3)",javax.ws.rs.core;version="[2.0,
+ 3)",org.slf4j;version="[1.7,2)",org.wso2.carbon.messaging;version="[2.0
+ ,3)"
+Provide-Capability: osgi.service;effective:=active;objectClass="org.wso2
+ .msf4j.interceptor.OSGiInterceptorConfig"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Service-Component: OSGI-INF/stream-processor-interceptor-config.xml
+Tool: Bnd-2.4.1.201501161923

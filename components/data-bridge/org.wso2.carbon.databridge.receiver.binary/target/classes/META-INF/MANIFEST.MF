@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702739924
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: It's is used relieve the dispatch the events via Bin
+ ary TCP transport
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.databridge.receiver.binary
+Bundle-SymbolicName: org.wso2.carbon.databridge.receiver.binary
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.databridge.receiver.binary;version="2.0.
+ 63";uses:="org.wso2.carbon.databridge.commons,org.wso2.carbon.databridg
+ e.commons.exception,org.wso2.carbon.databridge.core",org.wso2.carbon.da
+ tabridge.receiver.binary.conf;version="2.0.63";uses:="org.wso2.carbon.d
+ atabridge.core.conf"
+Import-Package: javax.net;resolution:=optional,javax.net.ssl;resolution:
+ =optional,org.apache.commons.logging;resolution:=optional;version="[1.2
+ ,2)",org.osgi.service.component;resolution:=optional;version="[1.2,2)",
+ org.wso2.carbon.databridge.commons;resolution:=optional;version="[2.0,3
+ )",org.wso2.carbon.databridge.commons.binary;resolution:=optional;versi
+ on="[2.0,3)",org.wso2.carbon.databridge.commons.exception;resolution:=o
+ ptional;version="[2.0,3)",org.wso2.carbon.databridge.commons.utils;reso
+ lution:=optional;version="[2.0,3)",org.wso2.carbon.databridge.core;reso
+ lution:=optional;version="[2.0,3)",org.wso2.carbon.databridge.core.conf
+ ;resolution:=optional;version="[2.0,3)",org.wso2.carbon.databridge.core
+ .exception;resolution:=optional;version="[2.0,3)",org.wso2.carbon.datab
+ ridge.receiver.binary;resolution:=optional;version="[2.0,3)",org.wso2.c
+ arbon.kernel;resolution:=optional;version="[5.2,6)",org.wso2.carbon.ker
+ nel.config.model;resolution:=optional;version="[5.2,6)",org.osgi.framew
+ ork;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Service-Component: OSGI-INF/binary-receiver-component-service.xml
+Tool: Bnd-2.4.1.201501161923

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702734878
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: It's is used for some message/event transformation f
+ or binary
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.databridge.commons.binary
+Bundle-SymbolicName: org.wso2.carbon.databridge.commons.binary
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.databridge.commons.binary;version="2.0.6
+ 3"
+Import-Package: org.osgi.framework
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Tool: Bnd-2.4.1.201501161923

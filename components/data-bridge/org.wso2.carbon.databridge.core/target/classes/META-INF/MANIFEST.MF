@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702736905
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: org.wso2.carbon.databridge.core is used relieve the 
+ dispatch the events sent by Agents
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.databridge.core
+Bundle-SymbolicName: org.wso2.carbon.databridge.core
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.carbon.databridge.core;version="2.0.63";uses:="
+ org.wso2.carbon.databridge.commons,org.wso2.carbon.databridge.commons.e
+ xception,org.wso2.carbon.databridge.core.conf,org.wso2.carbon.databridg
+ e.core.definitionstore,org.wso2.carbon.databridge.core.exception,org.ws
+ o2.carbon.kernel,org.wso2.carbon.kernel.configprovider",org.wso2.carbon
+ .databridge.core.Utils;version="2.0.63";uses:="org.wso2.carbon.databrid
+ ge.commons,org.wso2.carbon.databridge.core",org.wso2.carbon.databridge.
+ core.conf;version="2.0.63";uses:="org.wso2.carbon.kernel.annotations",o
+ rg.wso2.carbon.databridge.core.definitionstore;version="2.0.63";uses:="
+ org.wso2.carbon.databridge.commons,org.wso2.carbon.databridge.commons.e
+ xception,org.wso2.carbon.databridge.core.exception",org.wso2.carbon.dat
+ abridge.core.exception;version="2.0.63"
+Import-Package: org.osgi.framework;version="[1.8,2)",com.google.common.b
+ ase;resolution:=optional;version="[20.0,21)",com.google.common.cache;re
+ solution:=optional;version="[20.0,21)",javax.security.auth.callback;res
+ olution:=optional,javax.security.auth.login;resolution:=optional,javax.
+ xml.bind;resolution:=optional,javax.xml.stream;resolution:=optional,org
+ .apache.commons.io;resolution:=optional;version="[1.4,2)",org.apache.co
+ mmons.logging;resolution:=optional;version="[1.2,2)",org.apache.log4j;r
+ esolution:=optional;version="[1.2,2)",org.wso2.carbon.databridge.common
+ s;resolution:=optional;version="[2.0,3)",org.wso2.carbon.databridge.com
+ mons.exception;resolution:=optional;version="[2.0,3)",org.wso2.carbon.d
+ atabridge.commons.utils;resolution:=optional;version="[2.0,3)",org.wso2
+ .carbon.databridge.core.Utils;resolution:=optional;version="[2.0,3)",or
+ g.wso2.carbon.databridge.core.conf;resolution:=optional;version="[2.0,3
+ )",org.wso2.carbon.databridge.core.definitionstore;resolution:=optional
+ ;version="[2.0,3)",org.wso2.carbon.databridge.core.exception;resolution
+ :=optional;version="[2.0,3)",org.wso2.carbon.kernel;resolution:=optiona
+ l;version="[5.2,6)",org.wso2.carbon.kernel.annotations;resolution:=opti
+ onal;version="[5.2,6)",org.wso2.carbon.kernel.configprovider;resolution
+ :=optional;version="[5.2,6)",org.wso2.carbon.kernel.context;resolution:
+ =optional;version="[5.2,6)",org.wso2.carbon.kernel.utils;resolution:=op
+ tional;version="[5.2,6)",org.wso2.carbon.messaging;resolution:=optional
+ ;version="[2.0,3)",org.wso2.carbon.security.caas.api;resolution:=option
+ al;version="[1.0,2)",org.yaml.snakeyaml;resolution:=optional;version="[
+ 1.16,2)"
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.wso2.carbon.kernel.configprovider.ConfigProvider)",osgi.service;ef
+ fective:=active;filter:="(objectClass=org.wso2.carbon.kernel.CarbonRunt
+ ime)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Service-Component: OSGI-INF/org.wso2.carbon.databridge.core.internal.Dat
+ aBridgeDS.xml
+Tool: Bnd-2.4.1.201501161923

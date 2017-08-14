@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1502702731465
+Build-Jdk: 1.8.0_144
+Built-By: yasara
+Bundle-Contributors: WSO2 Inc
+Bundle-Copyright: WSO2 Inc
+Bundle-Description: org.wso2.carbon.agent.commons.thrift is the common t
+ hrift objects used in Agent andAgent Server communication
+Bundle-Developers: WSO2 Inc
+Bundle-DocURL: https://docs.wso2.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.databridge.commons
+Bundle-SymbolicName: org.wso2.carbon.databridge.commons
+Bundle-Vendor: WSO2 Inc
+Bundle-Version: 2.0.63.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbon.databridge.commons;version="2.0.63";uses
+ :="org.wso2.carbon.databridge.commons.exception",org.wso2.carbon.databr
+ idge.commons.exception;version="2.0.63",org.wso2.carbon.databridge.comm
+ ons.utils;version="2.0.63";uses:="org.wso2.carbon.databridge.commons,or
+ g.wso2.carbon.databridge.commons.exception"
+Import-Package: org.json;version="[3.0,4)",com.google.gson;version="[2.5
+ ,3)",org.apache.log4j;resolution:=optional;version="[1.2,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+SCM-Revision: c1ffa65c51a2883122899492f5bc8fbd709be728
+Tool: Bnd-2.4.1.201501161923
